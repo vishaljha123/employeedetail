@@ -1,0 +1,12 @@
+{% for e in employee %} 
+    <ol>
+      
+         <li>{{ e.name }}</li>
+         <ul>
+         <li>{{ e.location }}</li>
+        <li>{{ e.designation }}</li>
+        <li>{{ e.servicestart }}</li>
+        <li>{{ e.serviceends }}</li>
+        </ul>
+    </ol>
+{% endfor %}
